@@ -12,3 +12,4 @@
 /Users/setko/project it/Знакомство с языками программирования/Semminar 1/task1/obj/Debug/net8.0/task1.pdb
 /Users/setko/project it/Знакомство с языками программирования/Semminar 1/task1/obj/Debug/net8.0/task1.genruntimeconfig.cache
 /Users/setko/project it/Знакомство с языками программирования/Semminar 1/task1/obj/Debug/net8.0/ref/task1.dll
+/Users/setko/project it/Знакомство с языками программирования/Semminar 1/task1/obj/Debug/net8.0/task1.sourcelink.json

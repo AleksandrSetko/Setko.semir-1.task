@@ -7,21 +7,21 @@
 // a = -3, b = 9 => нет
 
 
-Console.Write("Введите первое число: ");
-int firstNumber = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Введите первое число: ");
+// int firstNumber = Convert.ToInt32(Console.ReadLine());
 
-Console.Write("Введите второе число: ");
-int secondNumber = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Введите второе число: ");
+// int secondNumber = Convert.ToInt32(Console.ReadLine());
 
-if (firstNumber == secondNumber * secondNumber)
-{
-    Console.WriteLine("a = " + firstNumber + ", b = " + secondNumber + " => да");
-}
-else
-{
-    Console.WriteLine($"a = {firstNumber}, b = {secondNumber} => нет");
-}
-System.Console.WriteLine();
+// if (firstNumber == secondNumber * secondNumber)
+// {
+//     Console.WriteLine("a = " + firstNumber + ", b = " + secondNumber + " => да");
+// }
+// else
+// {
+//     Console.WriteLine($"a = {firstNumber}, b = {secondNumber} => нет");
+// }
+// System.Console.WriteLine();
 
 
 
@@ -63,3 +63,14 @@ if (three > max)
 Console.WriteLine(max);
 
 // Задача 3
+Console.Write("Введите число: ");
+int number = Convert.ToInt32(Console.ReadLine());
+if (number % 2 == 0)
+{
+    Console.WriteLine("Число " + number + " четное.");
+}
+else
+{
+    Console.WriteLine("Число " + number + " нечетное.");
+}
+
