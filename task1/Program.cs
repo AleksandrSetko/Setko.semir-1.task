@@ -43,34 +43,42 @@ else
 }
 
 // Задача 2
-int one = 1;
-int two = 3;
-int three = 8;
-int max = one;
+// int one = 1;
+// int two = 3;
+// int three = 8;
+// int max = one;
 
-if (one > max)
-{
-    max = one;
-}
-if (two > max)
-{
-    max = two;
-}
-if (three > max)
-{
-    max = three;
-}
-Console.WriteLine(max);
+// if (one > max)
+// {
+//     max = one;
+// }
+// if (two > max)
+// {
+//     max = two;
+// }
+// if (three > max)
+// {
+//     max = three;
+// }
+// Console.WriteLine(max);
 
-// Задача 3
-Console.Write("Введите число: ");
-int number = Convert.ToInt32(Console.ReadLine());
-if (number % 2 == 0)
-{
-    Console.WriteLine("Число " + number + " четное.");
-}
-else
-{
-    Console.WriteLine("Число " + number + " нечетное.");
-}
+// // Задача 3
+// Console.Write("Введите число: ");
+// int number = Convert.ToInt32(Console.ReadLine());
+// if (number % 2 == 0)
+// {
+//     Console.WriteLine("Число " + number + " четное.");
+// }
+// else
+// {
+//     Console.WriteLine("Число " + number + " нечетное.");
+// }
 
+int number = 5;
+for (int i = 1; i <= number; i++)
+{
+if (i % 2 == 0)
+{
+    Console.Write(i + " ");
+}
+}
