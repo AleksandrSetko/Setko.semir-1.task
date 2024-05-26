@@ -41,3 +41,25 @@ else
 {
     Console.WriteLine("числа равны");
 }
+
+// Задача 2
+int one = 1;
+int two = 3;
+int three = 8;
+int max = one;
+
+if (one > max)
+{
+    max = one;
+}
+if (two > max)
+{
+    max = two;
+}
+if (three > max)
+{
+    max = three;
+}
+Console.WriteLine(max);
+
+// Задача 3
