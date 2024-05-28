@@ -60,13 +60,55 @@ else if (x > 0 && y < 0)
 {
     Console.WriteLine("Точка находится в четвертой (4) четверти координатной плоскости");
 }
-else 
+else
 {
     Console.WriteLine("Условия x ≠ 0 и y ≠ 0 не выполнены");
 }
 
 // Задача 3: Напишите программу, которая принимает на вход целое число из отрезка [10, 99] и показывает наибольшую цифру числа.
 
+Console.WriteLine("Введите число от 10 до 99");
+int numberOne = Convert.ToInt32(Console.ReadLine());
+
+if (numberOne >= 10 && numberOne <= 99)
+{
+    int firstDigit = numberOne / 10;
+    int secondDigit = numberOne % 10;
+    if (firstDigit > secondDigit)
+    {
+        Console.WriteLine(firstDigit);
+    }
+    else
+    {
+        Console.WriteLine(secondDigit);
+    }
+}
+else
+{
+    Console.WriteLine("Введенное число не находиться в диапазоне от 10 до 99");
+}
+
 // Задача 4: Напишите программу, которая на вход принимает натуральное число N, а на выходе показывает его цифры через запятую.
 
-// Пример вы найдете в конце презентации к семинару.
+Console.Write("Введите натуральное число N: ");
+int N = Convert.ToInt32(Console.ReadLine());
+if (N < 10)
+{
+    Console.WriteLine(N);
+}
+else
+{
+    while (N > 0)
+    {
+        int currentDigit = N % 10;
+        N /= 10;
+        if (N > 0)
+        {
+            Console.Write(currentDigit + ",");
+        }
+        else
+        {
+            Console.WriteLine(currentDigit);
+        }
+    }
+}
