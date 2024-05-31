@@ -112,3 +112,24 @@ else
         }
     }
 }
+
+
+
+// Из семинара № 3 
+// int[] array = new int[5] {1, 3, 4, 19, 3};
+// int[] array = { 1, 3, 4, 19, 3 };
+// int num = 8;
+
+// bool res = false;
+
+// for (int i = 0; i < array.Length; i++)
+// {
+// if (array[i] == num)
+// {
+// res = true;
+// break;
+// }
+// }
+
+// //string result = res ? "Да" : "Нет";
+// Console.WriteLine(res ? "Да" : "Нет");
