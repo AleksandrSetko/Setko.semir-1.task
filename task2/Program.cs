@@ -116,6 +116,7 @@ else
 
 
 // Из семинара № 3 
+
 // int[] array = new int[5] {1, 3, 4, 19, 3};
 // int[] array = { 1, 3, 4, 19, 3 };
 // int num = 8;
@@ -133,3 +134,38 @@ else
 
 // //string result = res ? "Да" : "Нет";
 // Console.WriteLine(res ? "Да" : "Нет");
+
+
+
+// int[] array = new int[10] { 1, -5, 6, 8, 2, -7, -2, 9, -5, 9 };
+
+// for (int i = 0; i < array.Length; i++)
+// {
+// array[i] *= -1;
+// }
+
+// for (int i = 0; i < array.Length; i++)
+// {
+// Console.Write($"{array[i]} ");
+// }
+
+// int[] array = new int[5] {1, 3, 4, 19, 3};
+
+
+
+int[] array = { 1, 3, 4, 19, 3 };
+int num = 8;
+
+bool res = false;
+
+for (int i = 0; i < array.Length; i++)
+{
+if (array[i] == num)
+{
+res = true;
+break;
+}
+}
+
+//string result = res ? "Да" : "Нет";
+Console.WriteLine(res ? "Да" : "Нет");
