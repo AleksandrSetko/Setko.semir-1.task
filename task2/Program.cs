@@ -169,3 +169,21 @@ break;
 
 //string result = res ? "Да" : "Нет";
 Console.WriteLine(res ? "Да" : "Нет");
+
+
+
+
+// int[] array2 = { 1, 3, 2, 4, 2, 3 };
+// int[] array2 = { 2, 3, 1, 7, 5, 6, 3 };
+// int[] resultArray = new int[array2.Length / 2];
+
+// for (int i = 0; i < array2.Length / 2; i++)
+// {
+// resultArray[i] = array2[i] * array2[array2.Length - i - 1];
+// }
+
+// for (int i = 0; i < resultArray.Length; i++)
+// {
+// Console.Write(resultArray[i] + " ");
+// }
+
